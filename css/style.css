@@ -1,0 +1,66 @@
+/*Nicky Devilee
+Bol4 applicatieontwikkelaar
+Week 7 - HTML/CSS
+opdracht: Week 7 - Handy*/
+
+.pagina{
+	width: 1000px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222931;
+    width: 950px;
+}
+
+li {
+    float: left;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #ffe718;
+    color: #222931;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+	font-size: 16px;
+    display: none;
+    position: absolute;
+    background-color: #222931;
+    width: 160px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #ffe718}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+h1{
+	font-weight: 500;
+}
