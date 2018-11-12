@@ -1,7 +1,7 @@
 <!-- Nicky Devilee
 Bol4 applicatieontwikkelaar
-Week 7 - HTML/CSS
-opdracht: Week 7 - Handy -->
+Week 9 - HTML/CSS
+opdracht: Week 9 - Handy -->
 
 
 <!DOCTYPE html>
@@ -10,22 +10,95 @@ opdracht: Week 7 - Handy -->
 	<title>Handy - index</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 <body>
 	<div class="pagina">
-		<ul>
-		  <li><a href="#home">Home</a></li>
-		  <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Dropdown</a>
-		    <div class="dropdown-content">
-		      <a href="#">Link 1</a>
-		      <a href="#">Link 2</a>
-		      <a href="#">Link 3</a>
-		    </div>
-		  </li>
-		  <li><a href="#news">News</a></li>
-		  <li><a href="#news">News</a></li>
-		</ul>
-		<h1>test</h1>
+		<div id="logo">
+			<img src="../img/logo.jpg">
+		</div>
+
+		<div class="menu">
+			<ul>
+			  <li><a href="index.html">HOME</a></li>
+			  <li class="dropdown"><a class="dropbtn">OVER ONS <i class="fa fa-angle-down"></i></a>
+			    <div class="dropdown-content">
+			      <a href="#">Geschiedenis</a>
+			      <a href="#">Deals</a>
+			      <a href="diensten.html">Diensten</a>
+			    </div>
+			  </li>
+			  <li><a href="#">PORTFOLIO</a></li>
+			  <li><a href="#">NIEUWS</a></li>
+			  <li><a href="#">CONTACT</a></li>
+			</ul>
+		</div>
+		
+		<div id="header">
+			<img src="../img/header.jpg">
+		</div>
+		<div id="container1">
+			<div id="foto1">
+				<img src="../img/banner-1.jpg">
+			</div>
+			<div id="foto2">
+				<img src="../img/banner-2.jpg">
+			</div>
+			<div id="foto3">
+				<img src="../img/banner-3.jpg">
+			</div>
+		</div>
+
+		<div id="ribbon">
+			<p>Wij bouwen oplossingen</p>
+			<p>Die echt werken...</p>
+			<p>MEER WETEN?</p>
+		</div>
+
+		<img id="footfoto" src="../img/footer.jpg">
+
+		<div id="container2">
+			<div id="banner1">
+				<i class="far fa-handshake" style="font-size:60px;"></i>
+				<h1>DEALS</h1>
+				<p>BEKIJK ONZE DEALS</p>
+			</div>
+			<div id="banner2">
+				<i class="fa fa-toolbox" style="font-size:60px;"></i>
+				<h1>DIENSTEN</h1>
+				<p>BEKIJK ONZE DIENSTEN</p>
+			</div>
+			<div id="banner3">
+				<i class="far fa-envelope" style="font-size:60px;"></i>
+				<h1>CONTACT</h1>
+				<p>STUUR EEN BERICHT</p>
+			</div>
+
+			<hr>
+
+			<div id="ons">
+				<h2>Over ons</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo laboriosam 
+				odit, delectus error quas earum, sint ratione cumque perspiciatis cum volupta
+				tum at minus. Deleniti quasi suscipit neque quas consequatur sed. Ex impedit 
+				error iure sint architecto accusamus vel delectus quidem reprehenderit soluta 
+				quos possimus sed quod, nam, sit ratione excepturi! Consectetur, illum! Lorem 
+				ipsum dolor sit amet, consectetur adipisicing elit. Explicabo laboriosam 
+				odit, delectus error quas earum, sint ratione cumque perspiciatis cum volupta
+				tum at minus. Deleniti quasi suscipit neque quas consequatur sed. Ex impedit 
+				error iure sint architecto accusamus vel delectus quidem reprehenderit soluta 
+				quos possimus sed quod, nam, sit ratione excepturi! Consectetur, illum!</p>
+			</div>
+			<div id="contact">
+				<h2>Contact</h2>
+				<p> <i class="fas fa-map-marker-alt" style="font-size:48px;"></i>        Romboutslaan 34 <br></p>
+				<p>  <i class="fas fa-mobile-alt" style="font-size:48px;"></i>         078 - 699 9999<br></p>
+				<p><i class="far fa-envelope" style="font-size:48px;"></i>       info@davinci-handy.nl</p>
+			</div>
+		</div>
+		<div id="footer">
+			<p>© Nicky Devilee | 99047338, 2018</p>
+		</div>
 	</div>
 </body>
 </html>
