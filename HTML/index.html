@@ -39,39 +39,68 @@ opdracht: Week 9 - Handy -->
 		</div>
 		<div id="container1">
 			<div id="foto1">
-				<img src="../img/banner-1.jpg">
+				<div class="container">
+				  <img src="../img/banner-1.jpg" alt="banner-1" class="image">
+				  <div class="overlay">
+				    <div class="text">GESCHIEDENIS</div>
+				  </div>
+				</div>
 			</div>
 			<div id="foto2">
-				<img src="../img/banner-2.jpg">
+				<div class="container">
+				  <img src="../img/banner-2.jpg" alt="banner-2" class="image">
+				  <div class="overlay">
+				    <div class="text">DEALS</div>
+				  </div>
+				</div>
 			</div>
 			<div id="foto3">
-				<img src="../img/banner-3.jpg">
+				<div class="container">
+				  <a href="diensten.html"><img src="../img/banner-3.jpg" alt="banner-3" class="image"></a>
+				  <div class="overlay">
+				    <div class="text"><a href="diensten.html" style="text-decoration: none; color: #ffffff;">DIENSTEN</a></div>
+				  </div>
+				</div>
 			</div>
 		</div>
 
 		<div id="ribbon">
-			<p>Wij bouwen oplossingen</p>
-			<p>Die echt werken...</p>
-			<p>MEER WETEN?</p>
+			<p id="left-ribbon" style="font-size: 34px;">Wij bouwen oplossingen</p>
+			<p id="right-ribbon" style="font-size: 16px;">Die echt werken...</p>
+			<a href="diensten.html" id="meer" style="font-size: 16px;">MEER WETEN?</a>
 		</div>
 
 		<img id="footfoto" src="../img/footer.jpg">
 
 		<div id="container2">
 			<div id="banner1">
-				<i class="far fa-handshake" style="font-size:60px;"></i>
-				<h1>DEALS</h1>
-				<p>BEKIJK ONZE DEALS</p>
+				<div id="icoon1">
+					<i class="far fa-handshake" style="font-size:60px;"></i>
+				</div>
+				<div id="tekst1">
+					<h1>DEALS</h1>
+					<p>BEKIJK ONZE DEALS</p>
+				</div>
 			</div>
 			<div id="banner2">
-				<i class="fa fa-toolbox" style="font-size:60px;"></i>
-				<h1>DIENSTEN</h1>
-				<p>BEKIJK ONZE DIENSTEN</p>
+				<a href="diensten.html" style="text-decoration: none;">
+					<div id="icoon2">
+						<i class="fa fa-toolbox" style="font-size:60px;"></i>
+					</div>
+					<div id="tekst2">
+						<h1>DIENSTEN</h1>
+						<p>BEKIJK ONZE DIENSTEN</p>
+					</div>
+				</a>
 			</div>
 			<div id="banner3">
-				<i class="far fa-envelope" style="font-size:60px;"></i>
-				<h1>CONTACT</h1>
-				<p>STUUR EEN BERICHT</p>
+				<div id="icoon3">
+					<i class="far fa-envelope" style="font-size:60px;"></i>
+				</div>
+				<div id="tekst3">
+					<h1>CONTACT</h1>
+					<p>STUUR EEN BERICHT</p>
+				</div>
 			</div>
 
 			<hr>
@@ -102,3 +131,4 @@ opdracht: Week 9 - Handy -->
 	</div>
 </body>
 </html>
+

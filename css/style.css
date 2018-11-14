@@ -109,8 +109,15 @@ li.dropdown {
     width: 300px;
 }
 
+#banner2 a{
+    color: black;
+}
+
 #banner2:hover{
     background-color: #222931;
+}
+
+#banner2 a:hover{
     color: #ffffff;
 }
 
@@ -148,4 +155,91 @@ hr{
 
 #footer p{
     padding-right: 100px;
+}
+
+#left-ribbon{
+    display: inline;
+    padding-left: 415px;
+}
+
+#right-ribbon{
+    display: inline-block;
+    padding-left: 25px;
+}
+
+#left-ribbon, #right-ribbon{
+    padding-top: 50px;
+}
+
+#meer{
+    float: right;
+    margin-right: 500px;
+    margin-top: 50px;
+    background-color: #ffffff;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+    color: #222931;
+}
+
+#meer:hover{
+    background-color: #222931;
+    color: #ffffff;
+}
+
+.container {
+  position: relative;
+  width: 300px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #222931;
+}
+
+.container:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#icoon1, #icoon2, #icoon3{
+    float: left;
+    padding-left: 10px;
+    padding-top: 25px;
+}
+
+#tekst1, #tekst2, #tekst3{
+    padding-left: 100px;
+}
+
+#tekst1 p, #tekst2 p, #tekst3 p{
+    padding-top: 0px;
+    line-height: 0px;
+    padding-bottom: 10px;
 }
